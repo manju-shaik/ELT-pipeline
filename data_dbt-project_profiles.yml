@@ -1,0 +1,14 @@
+firstproject:
+  outputs:
+    dev:
+      dataset: fproject
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /home/airflow/gcs/data/silent-region-463011-h9-99ce1476e31d.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: silent-region-463011-h9
+      threads: 1
+      type: bigquery
+  target: dev
